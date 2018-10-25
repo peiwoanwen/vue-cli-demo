@@ -10,7 +10,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      aa: '5'
+      aa: '3'
     }
   }
 }
