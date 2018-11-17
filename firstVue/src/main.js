@@ -7,6 +7,9 @@ import ElementUI from 'element-ui'
 import axios from 'axios'
 import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI)
+axios.defaults.withCredentials = true
+axios.defaults.crossDomain = true
+axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
 
 Vue.config.productionTip = false
 axios.defaults.withCredentials = true

@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "element-ui": "^2.4.8",
+    "html2canvas": "^1.0.0-alpha.12",
+    "lodash": "^4.17.11",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <app-header></app-header>
-    <left-tree></left-tree>
+    <!-- <app-header></app-header> -->
+    <!-- <left-tree></left-tree> -->
     <div style="float: left;">
       <router-view/>
     </div>
